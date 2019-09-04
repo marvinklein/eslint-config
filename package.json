@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-marvinklein",
+  "version": "1.0.0",
+  "description": "a shared eslint config",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marvinklein/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Marvin Klein",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marvinklein/eslint-config/issues"
+  },
+  "homepage": "https://github.com/marvinklein/eslint-config#readme",
+  "peerDependencies": {
+    "eslint": ">= 6"
+  }
+}
