@@ -2,7 +2,11 @@
 a shared [eslint](https://eslint.org/) config
 
 ## Usage
-In your project's `.eslintrc`
+Install from GitHub
+```sh
+npm install --save-dev https://github.com/marvinklein/eslint-config
+```
+Then, in your project's `.eslintrc`
 
 ```js
 {
