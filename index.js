@@ -26,7 +26,7 @@ module.exports = {
     'no-empty-character-class': 'error', // disallow empty character classes in regular expressions
     'no-ex-assign': 'error', // disallow reassigning exceptions in 'catch' clauses
     'no-extra-boolean-cast': 'error', // disallow unnecessary boolean casts
-    'no-extra-parens': 'error', // disallow unnecessary parentheses
+    'no-extra-parens': [ 'error', { 'nestedBinaryExpressions': false } ], // disallow unnecessary parentheses
     'no-extra-semi': 'error', // disallow unnecessary semicolons. (fixable)
     'no-func-assign': 'error', // disallow reassigning 'function' declarations
     'no-inner-declarations': 'error', // disallow 'function' or 'var' declarations in nested blocks
